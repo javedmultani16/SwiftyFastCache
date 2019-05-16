@@ -28,14 +28,14 @@ Simple Library To Cache Images And Other Resources!
   s.source           = { :git => 'https://github.com/javedmultani16/SwiftyFastCache.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'SwiftyFastCache/*'
 s.exclude_files = "SwiftyFastCache/*.plist"
   
 #other attributes
-  swift_version = s.swift_version.to_s
+  s.swift_version = '5.0' 
   # s.public_header_files = 'Pod/Classes/**/*.h'
     s.frameworks = 'UIKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+ 
 end
